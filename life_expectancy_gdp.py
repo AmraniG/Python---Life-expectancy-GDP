@@ -8,7 +8,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-file_to_import = 'C:\\Users\\Ghisl\\OneDrive\\Documents\\Formations\\Python\\GDP Expectancy\\all_data.csv'
+file_to_import = 'C:\\Users\\Ghisl\\Python\\GDP Expectancy\\all_data.csv'
 df = pd.read_csv(file_to_import)
 df.columns = ['country', 'year', 'life_expectancy', 'gdp']
 
